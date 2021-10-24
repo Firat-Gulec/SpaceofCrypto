@@ -179,10 +179,23 @@ class GameOverScene: SKScene, SKProductsRequestDelegate, SKPaymentTransactionObs
                 meteorscene.difficulty = difficulty
                 self.view?.presentScene(meteorscene, transition: transition)
            }else if node[0].name == "nextGameButton" {
-            
+               if selectedlevel == 1 {
+                   let transition = SKTransition.flipHorizontal(withDuration: 0.5)
+                   let meteorscene = MeteorScene(size: self.size)
+                   meteorscene.difficulty = difficulty
+                   meteorscene.selectedLevel = selectedlevel + 1
+                   self.view?.presentScene(meteorscene, transition: transition)
+               }else if selectedlevel == 2 {
+                   let transition = SKTransition.flipHorizontal(withDuration: 0.5)
+                   let meteorscene = MeteorScene(size: self.size)
+                   meteorscene.difficulty = difficulty
+                   meteorscene.selectedLevel = selectedlevel + 1
+                   self.view?.presentScene(meteorscene, transition: transition)
+                   
+               }else {
             let payment = SKPayment(product: models[0])
             SKPaymentQueue.default().add(payment)
-            
+               }
            }else if node[0].name == "shareButton" {
             let postText: String = "Check out my score! Can you beat it?"
             let postImage: UIImage = getScreenshot(scene: self.scene!)

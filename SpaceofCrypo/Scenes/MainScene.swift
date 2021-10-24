@@ -113,7 +113,7 @@ class MainScene: SKScene, SKProductsRequestDelegate, SKPaymentTransactionObserve
             case .restored:
                 print("purchase restored")
                
-               if levelgamemode == "level2.png" || levelgamemode == levelArray[1] {
+           /*    if levelgamemode == "level2.png" || levelgamemode == levelArray[1] {
                      let transition = SKTransition.flipHorizontal(withDuration: 0.5)
                      let meteorscene = MeteorScene(size: self.size)
                      meteorscene.difficulty = difficulty
@@ -125,7 +125,7 @@ class MainScene: SKScene, SKProductsRequestDelegate, SKPaymentTransactionObserve
                      meteorscene.difficulty = difficulty
                      meteorscene.selectedLevel = 3
                      self.view?.presentScene(meteorscene, transition: transition)
-                 }else if levelgamemode == "level4.png" || levelgamemode == levelArray[3] {
+                 }else */ if levelgamemode == "level4.png" || levelgamemode == levelArray[3] {
                      let transition = SKTransition.flipHorizontal(withDuration: 0.5)
                      let meteorscene = MeteorScene(size: self.size)
                      meteorscene.difficulty = difficulty
@@ -272,7 +272,20 @@ class MainScene: SKScene, SKProductsRequestDelegate, SKPaymentTransactionObserve
                         meteorscene.difficulty = difficulty
                         meteorscene.selectedLevel = 1
                         self.view?.presentScene(meteorscene, transition: transition)
-                    }else if levelgamemode != "level1.png" {
+                    }else if levelgamemode == "level2.png" {
+                        let transition = SKTransition.flipHorizontal(withDuration: 0.5)
+                        let meteorscene = MeteorScene(size: self.size)
+                        meteorscene.difficulty = difficulty
+                        meteorscene.selectedLevel = 2
+                        self.view?.presentScene(meteorscene, transition: transition)
+                        
+                    }else if levelgamemode == "level3.png" {
+                        let transition = SKTransition.flipHorizontal(withDuration: 0.5)
+                        let meteorscene = MeteorScene(size: self.size)
+                        meteorscene.difficulty = difficulty
+                        meteorscene.selectedLevel = 3
+                        self.view?.presentScene(meteorscene, transition: transition)
+                    }else {
                         let payment = SKPayment(product: models[0])
                         SKPaymentQueue.default().add(payment)
                             }
@@ -304,7 +317,7 @@ class MainScene: SKScene, SKProductsRequestDelegate, SKPaymentTransactionObserve
            
         } else {
             levelArray.removeAll()
-            levelArray = ["level1.png", "level2_locked.png" , "level3_locked.png", "level4_locked.png", "level5_locked.png", "level6_locked.png", "level7_locked.png", "level8_locked.png", "level9_locked.png", "level10_locked.png"]
+            levelArray = ["level1.png", "level2.png" , "level3.png", "level4_locked.png", "level5_locked.png", "level6_locked.png", "level7_locked.png", "level8_locked.png", "level9_locked.png", "level10_locked.png"]
            
         }
     }
