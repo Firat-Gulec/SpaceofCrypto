@@ -1,0 +1,48 @@
+{
+  "identifier" : "D5A31FEC",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1DD2756C",
+      "localizations" : [
+        {
+          "description" : "For you to unlock all game levels",
+          "displayName" : "Unlock all game levels",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.firatgulec.SpaceofCrypto.everything",
+      "referenceName" : "Everything",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "ADCC7D90",
+      "localizations" : [
+        {
+          "description" : "Remove all Ads",
+          "displayName" : "Remove Ads",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.firatgulec.SpaceofCrypto.removeads",
+      "referenceName" : "RemoveAds",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 1
+  }
+}
