@@ -212,38 +212,38 @@ class MainScene: SKScene, SKProductsRequestDelegate, SKPaymentTransactionObserve
             }
                createBG()
             gamelogoImageNode = (self.childNode(withName: "gamelogoImage") as! SKSpriteNode)
-            gamelogoImageNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 200)
+            gamelogoImageNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 350)
             gamelogoImageNode.texture = SKTexture(imageNamed: "gamename")
             gamelogoLabelNode = (self.childNode(withName: "gamelogoLabel") as! SKLabelNode)
             //gamelogoLabelNode.text = "HIGH SCORE: \(highScore)"
-            gamelogoLabelNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 200)
+            gamelogoLabelNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 350)
             gamelogoLabelNode.isHidden = true
             newGameButtonNode = (self.childNode(withName: "newGameButton") as! SKSpriteNode)
-            newGameButtonNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 400)
+            newGameButtonNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 550)
             difficultyButtonNode = (self.childNode(withName: "difficultyButton") as! SKSpriteNode)
             // difficultyButtonNode.texture = SKTexture(imageNamed: ""slots-difficulty"")
             difficultyLabelNode = (self.childNode(withName: "difficultyLabel")as! SKLabelNode)
-            difficultyLabelNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 990)
-            difficultyButtonNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 870)
+            difficultyLabelNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 1150)
+            difficultyButtonNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 1020)
             /*
             levelModeButtonNode = (self.childNode(withName: "levelModeButton")as! SKSpriteNode)
             levelModeButtonNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 500)
             levelModeButtonNode.isHidden = true
             */
             levelImageNode = (self.childNode(withName: "levelImage")as! SKSpriteNode)
-            levelImageNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 610)
+            levelImageNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 760)
             levelgamemode = "level1.png"
             
             yellowleftButtonNode = (self.childNode(withName: "yelllowleftButton")as! SKSpriteNode)
-            yellowleftButtonNode.position = CGPoint(x: (self.frame.width / 2) - 260, y: self.frame.height - 620)
+            yellowleftButtonNode.position = CGPoint(x: (self.frame.width / 2) - 260, y: self.frame.height - 770)
             yellowrightButtonNode = (self.childNode(withName: "yellowrightButton")as! SKSpriteNode)
-            yellowrightButtonNode.position = CGPoint(x: (self.frame.width / 2) + 260, y: self.frame.height - 620)
+            yellowrightButtonNode.position = CGPoint(x: (self.frame.width / 2) + 260, y: self.frame.height - 770)
             purrestoredButtonNode = (self.childNode(withName: "purrestoredButton")as! SKSpriteNode)
             purrestoredButtonNode.position = CGPoint(x: (self.frame.width / 2) - 260, y: self.frame.height - 1200)
             purrestoredButtonNode.texture = SKTexture(imageNamed: "restore")
             purrestoredButtonNode.isHidden = true
             levelNameLabelNode = (self.childNode(withName: "levelNameLabel")as! SKLabelNode)
-            levelNameLabelNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 790)
+            levelNameLabelNode.position = CGPoint(x: self.frame.width/2, y: self.frame.height - 940)
             levelNameLabelNode.text = "Basic warfare"
             levelImageNode.texture = SKTexture(imageNamed: levelgamemode)
             let userDefaults = UserDefaults.standard
