@@ -1,7 +1,7 @@
 # Space of Crypto 
 This is a casual space game designed in the universe of cryptocurrency markets. Game Levels represent the different seasons in the cryptocurrency markets. 10 different cryptocurrencies with high popularity were selected. Levels are earned by earning limit points according to game levels, and crypto seasons are shown as you level up.
 
-<img src="/ScreenShots/1.png" width="24.5%"> <img src="/ScreenShots/2.png" width="24.5%"> <img src="/ScreenShots/3.png" width="24.5%"> <img src="/ScreenShots/4.png" width="24.5%">
+<img src="/Screenshots/1.png" width="24.5%"> <img src="/Screenshots/2.png" width="24.5%"> <img src="/Screenshots/3.png" width="24.5%"> <img src="/Screenshots/4.png" width="24.5%">
 
 
 
