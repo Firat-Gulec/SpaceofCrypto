@@ -6,7 +6,7 @@ This is a casual space game designed in the universe of cryptocurrency markets. 
 
 
 # Architecture
-- Ten different game levels. (1.Basic warefare, 2.Prepare of war, 3.Meteor Shower, 4.Golden Cross, 5.Death Cross, 6.Bull Session, 7.Bear Session, 8.Whale Alert, 9.Correction, 10.All time high
+- Ten different game levels. (1.Basic warefare, 2.Prepare of war, 3.Meteor Shower, 4.Golden Cross, 5.Death Cross, 6.Bull Session, 7.Bear Session, 8.Whale Alert, 9.Correction, 10.All time high)
 - Spaceship of different colors
 - The objects coming at different speeds, sizes and points by game levels.
 
