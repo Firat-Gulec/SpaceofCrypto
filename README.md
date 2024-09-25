@@ -24,6 +24,6 @@ Fırat Gulec - github/Firat-Gulec
 # Mobile Installation
 https://apps.apple.com/us/app/space-of-crypto/id1586186748
 
-[![N|BuyMeACoffe](https://miro.medium.com/v2/resize:fit:1400/1*VJdus0nKuy1uNoByh5BN3w.png)](https://medium.com/r/?url=https%3A%2F%2Fbuymeacoffee.com%2Ffiratgulec)
+[![N|BuyMeACoffe](https://uxwing.com/wp-content/themes/uxwing/images/buymeacoffee.png)](https://medium.com/r/?url=https%3A%2F%2Fbuymeacoffee.com%2Ffiratgulec)
 
 
